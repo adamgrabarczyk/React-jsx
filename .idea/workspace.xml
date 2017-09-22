@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74eefd25-b2bf-4036-9bc1-42da8b854b6a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-jsx/src/index.js" afterPath="$PROJECT_DIR$/react-jsx/src/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-jsx/src/players.js" afterPath="$PROJECT_DIR$/react-jsx/src/players.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,8 +37,8 @@
           <file leaf-file-name="players.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/react-jsx/src/players.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+                <state relative-caret-position="75">
+                  <caret line="5" column="110" lean-forward="false" selection-start-line="5" selection-start-column="110" selection-end-line="5" selection-end-column="110" />
                   <folding />
                 </state>
               </provider>
@@ -230,12 +229,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506095512741</updated>
-      <workItem from="1506095515001" duration="5750000" />
+      <workItem from="1506095515001" duration="6627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5750000" />
+    <option name="totallyTimeSpent" value="6627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
@@ -301,8 +300,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react-jsx/src/players.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="75">
+          <caret line="5" column="110" lean-forward="false" selection-start-line="5" selection-start-column="110" selection-end-line="5" selection-end-column="110" />
           <folding />
         </state>
       </provider>

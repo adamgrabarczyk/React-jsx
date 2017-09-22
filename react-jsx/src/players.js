@@ -1,33 +1,36 @@
 import React from 'react';
 
 
-const Players = (props) => {    // parametr wywołania funkcji w komponencie to props
-    return (
-        <ul>
+class Players extends React.Component {   // parametr wywołania funkcji w komponencie to props
 
-            {props.sports.map(item => {
+    render () {               // w komponencie opartym o klasy ciało funkcji umieszczamy w srdku metody render
 
-                const date  = new Date(item.date);  // parsowania ze stringa na date
+        return (
+            <ul>
 
-                if (date >= Date.now()) {
+                {this.props.sports.map(item => {
 
-                    return(
+                    const date = new Date(item.date);  // parsowania ze stringa na date
 
-                        <li key={item.id}>
-                            <strong>{item.name}</strong><br/>
-                            <strong>{item.surname}</strong><br/>
-                            <strong>{item.sport}</strong><br/>
-                            <strong>{item.club}</strong><br/>
-                            <strong>{item.date}</strong><br/><br/>
-                        </li>
-                    )
+                    if (date >= Date.now()) {
+
+                        return (
+
+                            <li key={item.id}>
+                                <strong>{item.name}</strong><br/>
+                                <strong>{item.surname}</strong><br/>
+                                <strong>{item.sport}</strong><br/>
+                                <strong>{item.club}</strong><br/>
+                                <strong>{item.date}</strong><br/><br/>
+                            </li>
+                        )
 
 
-                }
-                return null;
-            })}
-        </ul>
-    );
-};
+                    }
+                    return null;
+                })}
+            </ul>
+        );
+    }};
 
 export default Players;
