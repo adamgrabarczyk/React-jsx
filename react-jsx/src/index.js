@@ -10,17 +10,22 @@ ReactDOM.render(<ul>
 
         const date  = new Date(item.date);  // parsowania ze stringa na date
 
-        return(
+        if (date >= Date.now()) {
 
-            <li key={item.id}>
-                <strong>{item.name}</strong><br/>
-                <strong>{item.surname}</strong><br/>
-                <strong>{item.sport}</strong><br/>
-                <strong>{item.club}</strong><br/>
-                <strong>{item.date}</strong><br/><br/>
-            </li>
-        )
+            return(
 
+                <li key={item.id}>
+                    <strong>{item.name}</strong><br/>
+                    <strong>{item.surname}</strong><br/>
+                    <strong>{item.sport}</strong><br/>
+                    <strong>{item.club}</strong><br/>
+                    <strong>{item.date}</strong><br/><br/>
+                </li>
+            )
+
+
+        }
+        return null;
     })}
 </ul>, document.getElementById('root'));
 
