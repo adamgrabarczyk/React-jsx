@@ -2,38 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import sports from './data/sports.json'
+import players from './players'
 
 
 
-const players = () => {
-
-return (
-    <ul>
-
-        {sports.map(item => {
-
-            const date  = new Date(item.date);  // parsowania ze stringa na date
-
-            if (date >= Date.now()) {
-
-                return(
-
-                    <li key={item.id}>
-                        <strong>{item.name}</strong><br/>
-                        <strong>{item.surname}</strong><br/>
-                        <strong>{item.sport}</strong><br/>
-                        <strong>{item.club}</strong><br/>
-                        <strong>{item.date}</strong><br/><br/>
-                    </li>
-                )
-
-
-            }
-            return null;
-        })}
-    </ul>
-);
-};
-
-ReactDOM.render(players(), document.getElementById('root'));
+ReactDOM.render(players(sports), document.getElementById('root')); //do funkcji przekazujemy argument sports
 
