@@ -7,6 +7,9 @@ import sports from './data/sports.json'
 ReactDOM.render(<ul>
 
     {sports.map(item => {
+
+        const date  = new Date(item.date);  // parsowania ze stringa na date
+
         return(
 
             <li key={item.id}>
