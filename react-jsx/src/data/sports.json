@@ -1,0 +1,42 @@
+[
+
+  {
+
+    "id": 1,
+    "name": "LeBron",
+    "surname": "James",
+    "sport": "basketball",
+    "club": "Cavs"
+
+  },
+
+  {
+
+    "id": 2,
+    "name": "Dwane",
+    "surname": "Wade",
+    "sport": "basketball",
+    "club": "Buls"
+
+  },
+
+  {
+
+    "id": 3,
+    "name": "Kobe",
+    "surname": "Brayant",
+    "sport": "basketball",
+    "club": "Lakers"
+
+  }
+
+
+
+
+
+
+
+
+
+
+]
