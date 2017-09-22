@@ -1,12 +1,11 @@
 import React from 'react';
 
 
-const players = (sports) => {    // przekazujemy sports żeby móc użyc tego niżej
-
+const Players = (props) => {    // parametr wywołania funkcji w komponencie to props
     return (
         <ul>
 
-            {sports.map(item => {
+            {props.sports.map(item => {
 
                 const date  = new Date(item.date);  // parsowania ze stringa na date
 
@@ -31,4 +30,4 @@ const players = (sports) => {    // przekazujemy sports żeby móc użyc tego ni
     );
 };
 
-export default players;
+export default Players;
