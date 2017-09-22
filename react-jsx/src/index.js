@@ -13,7 +13,8 @@ ReactDOM.render(<ul>
                 <strong>{item.name}</strong><br/>
                 <strong>{item.surname}</strong><br/>
                 <strong>{item.sport}</strong><br/>
-                <strong>{item.club}</strong><br/><br/>
+                <strong>{item.club}</strong><br/>
+                <strong>{item.date}</strong><br/><br/>
             </li>
         )
 

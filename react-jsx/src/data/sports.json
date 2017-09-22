@@ -6,8 +6,8 @@
     "name": "LeBron",
     "surname": "James",
     "sport": "basketball",
-    "club": "Cavs"
-
+    "club": "Cavs",
+"date": "10-08-2017"
   },
 
   {
@@ -16,7 +16,8 @@
     "name": "Dwane",
     "surname": "Wade",
     "sport": "basketball",
-    "club": "Buls"
+    "club": "Buls",
+    "date": "10-12-2017"
 
   },
 
@@ -26,7 +27,8 @@
     "name": "Kobe",
     "surname": "Brayant",
     "sport": "basketball",
-    "club": "Lakers"
+    "club": "Lakers",
+    "date": "10-08-2018"
 
   }
 
