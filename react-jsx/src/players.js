@@ -33,4 +33,9 @@ class Players extends React.Component {   // parametr wywołania funkcji w kompo
         );
     }};
 
+Players.propTypes = {
+
+    sports: PropTypes.array.isRequired
+};
+
 export default Players;
