@@ -3,6 +3,12 @@ import PropTypes from 'prop-types';
 
 class Players extends React.Component {   // parametr wywołania funkcji w komponencie to props
 
+  static propTypes = {
+
+    sports: PropTypes.array.isRequired
+};
+
+
     render () {               // w komponencie opartym o klasy ciało funkcji umieszczamy w srdku metody render
 
         return (
@@ -33,9 +39,6 @@ class Players extends React.Component {   // parametr wywołania funkcji w kompo
         );
     }};
 
-Players.propTypes = {
 
-    sports: PropTypes.array.isRequired
-};
 
 export default Players;
