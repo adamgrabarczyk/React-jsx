@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 
 class Players extends React.Component {   // parametr wywołania funkcji w komponencie to props
 
