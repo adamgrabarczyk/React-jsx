@@ -6,6 +6,5 @@ import Players from './players'
 
 
 
-
 ReactDOM.render(<Players sports={sports}/>, document.getElementById('root')); //do funkcji przekazujemy argument sports
 
